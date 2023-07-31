@@ -34,8 +34,56 @@ namespace TaskManager.Data.Repositories
 
         public async Task<ProjectTask> AddTaskAsync(ProjectTask projectTask)
         {
-            using (SqlConnection connection = new SqlConnection)
+            using (SqlConnection connection = new())
+            {
+                await connection.OpenAsync();
 
+                using (SqlCommand command = new(
+                    "INSERT INTO " +
+                    "ProjectTasks (Title, Description, IsComplete, CreateDate, CompletedDate) " +
+                    "VALUES (@title, @description, @isComplete, @createDate, @completedDate); " +
+                    "SELECT SCOPE_IDENTITY()", connection))
+                {
+                    command.Parameters.AddWithValue("@title", projectTask.Title);
+                    command.Parameters.AddWithValue("@description", projectTask.Description);
+                    command.Parameters.AddWithValue("@isComplete", projectTask.IsComplete);
+                    command.Parameters.AddWithValue("@createDate", projectTask.CreateDate);
+                    command.Parameters.AddWithValue("@completedDate", projectTask.CompletedDate);
+
+                    // Execute the command and get the ID of the newly created task
+                    var result = await command.ExecuteScalarAsync();
+                    projectTask.Id = int.Parse(result.ToString());
+                }
+            }
+
+            return projectTask;
+        }
+
+        public async Task<ProjectTask> UpdateTaskAsync(ProjectTask projectTask)
+        {
+            using (SqlConnection connection = new()) 
+            {
+                await connection.OpenAsync();
+
+                using (SqlCommand command = new(
+                    "UPDATE ProjectTasks " +
+                    "SET Title = @title" +
+                    ", Description = @description" +
+                    ", IsComplete = @isComplete" +
+                    ", CreateDate = @createDate" +
+                    ", CompletedDate = @completedDate " +
+                    "WHERE Id = @id", connection))
+                {
+                    command.Parameters.AddWithValue("@title", projectTask.Title);
+                    command.Parameters.AddWithValue("@description", projectTask.Description);
+                    command.Parameters.AddWithValue("@isComplete", projectTask.IsComplete);
+                    command.Parameters.AddWithValue("@createDate", projectTask.CreateDate);
+                    command.Parameters.AddWithValue("@completeDate", projectTask.CompletedDate);
+                    command.Parameters.AddWithValue("@id", projectTask.Id);
+
+                    await command.ExecuteNonQueryAsync();
+                }
+            }
             return projectTask;
         }
     }
