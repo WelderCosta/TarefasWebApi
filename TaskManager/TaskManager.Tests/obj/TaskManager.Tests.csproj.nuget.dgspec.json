@@ -1,0 +1,343 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Tests\\TaskManager.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\TaskManager.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\TaskManager.API.csproj",
+        "projectName": "TaskManager.API",
+        "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\TaskManager.API.csproj",
+        "packagesPath": "C:\\Users\\welder\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ticketagora/_packaging/TicketAgoraRepository/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj"
+              },
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj",
+        "projectName": "TaskManager.Core",
+        "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj",
+        "packagesPath": "C:\\Users\\welder\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ticketagora/_packaging/TicketAgoraRepository/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj",
+        "projectName": "TaskManager.Data",
+        "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj",
+        "packagesPath": "C:\\Users\\welder\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ticketagora/_packaging/TicketAgoraRepository/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj",
+        "projectName": "TaskManager.Service",
+        "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj",
+        "packagesPath": "C:\\Users\\welder\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ticketagora/_packaging/TicketAgoraRepository/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj"
+              },
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Tests\\TaskManager.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Tests\\TaskManager.Tests.csproj",
+        "projectName": "TaskManager.Tests",
+        "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Tests\\TaskManager.Tests.csproj",
+        "packagesPath": "C:\\Users\\welder\\.nuget\\packages\\",
+        "outputPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\welder\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/ticketagora/_packaging/TicketAgoraRepository/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\TaskManager.API.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.API\\TaskManager.API.csproj"
+              },
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj"
+              },
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj"
+              },
+              "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj": {
+                "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

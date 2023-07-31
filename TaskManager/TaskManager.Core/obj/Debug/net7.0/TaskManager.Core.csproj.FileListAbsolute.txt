@@ -1,0 +1,12 @@
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\bin\Debug\net7.0\TaskManager.Core.deps.json
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\bin\Debug\net7.0\TaskManager.Core.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\bin\Debug\net7.0\TaskManager.Core.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.csproj.AssemblyReference.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.AssemblyInfoInputs.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.AssemblyInfo.cs
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.csproj.CoreCompileInputs.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\refint\TaskManager.Core.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\TaskManager.Core.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Core\obj\Debug\net7.0\ref\TaskManager.Core.dll
