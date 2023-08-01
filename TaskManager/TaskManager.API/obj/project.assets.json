@@ -473,6 +473,20 @@
         "runtime": {
           "bin/placeholder/TaskManager.Data.dll": {}
         }
+      },
+      "TaskManager.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "TaskManager.Core": "1.0.0",
+          "TaskManager.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TaskManager.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TaskManager.Service.dll": {}
+        }
       }
     }
   },
@@ -1450,6 +1464,11 @@
       "type": "project",
       "path": "../TaskManager.Data/TaskManager.Data.csproj",
       "msbuildProject": "../TaskManager.Data/TaskManager.Data.csproj"
+    },
+    "TaskManager.Service/1.0.0": {
+      "type": "project",
+      "path": "../TaskManager.Service/TaskManager.Service.csproj",
+      "msbuildProject": "../TaskManager.Service/TaskManager.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1457,7 +1476,7 @@
       "Microsoft.AspNetCore.OpenApi >= 7.0.5",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "TaskManager.Core >= 1.0.0",
-      "TaskManager.Data >= 1.0.0"
+      "TaskManager.Service >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1492,8 +1511,8 @@
             "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj": {
               "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Core\\TaskManager.Core.csproj"
             },
-            "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj": {
-              "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj"
+            "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj": {
+              "projectPath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj"
             }
           }
         }

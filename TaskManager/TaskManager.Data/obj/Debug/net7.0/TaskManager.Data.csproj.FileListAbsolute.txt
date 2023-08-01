@@ -1,0 +1,15 @@
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\bin\Debug\net7.0\TaskManager.Data.deps.json
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\bin\Debug\net7.0\TaskManager.Data.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\bin\Debug\net7.0\TaskManager.Data.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\bin\Debug\net7.0\TaskManager.Core.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\bin\Debug\net7.0\TaskManager.Core.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.csproj.AssemblyReference.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.AssemblyInfoInputs.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.AssemblyInfo.cs
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.csproj.CoreCompileInputs.cache
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.csproj.CopyComplete
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\refint\TaskManager.Data.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\TaskManager.Data.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Data\obj\Debug\net7.0\ref\TaskManager.Data.dll

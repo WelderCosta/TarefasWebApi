@@ -13,12 +13,11 @@
 
   <ItemGroup>
     <Folder Include="DTOs\" />
-    <Folder Include="Controllers\" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\TaskManager.Core\TaskManager.Core.csproj" />
-    <ProjectReference Include="..\TaskManager.Data\TaskManager.Data.csproj" />
+    <ProjectReference Include="..\TaskManager.Service\TaskManager.Service.csproj" />
   </ItemGroup>
 
 </Project>

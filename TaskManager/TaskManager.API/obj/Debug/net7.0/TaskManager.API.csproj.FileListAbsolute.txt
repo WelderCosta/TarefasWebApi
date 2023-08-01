@@ -31,3 +31,17 @@ C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\obj\Debug\net7.0\refint\Tas
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\obj\Debug\net7.0\TaskManager.API.pdb
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\obj\Debug\net7.0\TaskManager.API.genruntimeconfig.cache
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\obj\Debug\net7.0\ref\TaskManager.API.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\System.Data.SqlClient.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\runtimes\win-arm64\native\sni.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\runtimes\win-x64\native\sni.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\runtimes\win-x86\native\sni.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Core.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Data.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Service.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Core.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Service.pdb
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\TaskManager.Data.pdb
