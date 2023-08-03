@@ -24,3 +24,4 @@ C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Tests\obj\Debug\net7.0\TaskMana
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Tests\obj\Debug\net7.0\refint\TaskManager.Tests.dll
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Tests\obj\Debug\net7.0\TaskManager.Tests.pdb
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Tests\obj\Debug\net7.0\ref\TaskManager.Tests.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.Tests\bin\Debug\net7.0\TaskManager.API.staticwebassets.runtime.json
