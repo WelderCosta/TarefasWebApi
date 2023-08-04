@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6ZVADgMTDXQWuEOVQeN8gze6nDIlwxRK2AKBPZFNiyd7XQLSb/zaf1LLj/APO3CSlQI5PwtgKqYSyM1cQALO0w==",
+  "dgSpecHash": "T1TVGgw6sC2TH6+Syol5gc7Gy81oyOsec74gtd5tyH4AtC7cZZCi0rUys0rHSD+e9Q/V1hd9nU8wGfHs9qJiig==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Service\\TaskManager.Service.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\7.0.9\\microsoft.aspnetcore.cryptography.keyderivation.7.0.9.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.9\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.9\\microsoft.aspnetcore.identity.ui.7.0.9.nupkg.sha512",
+    "C:\\Users\\welder\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.9\\microsoft.entityframeworkcore.7.0.9.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.9\\microsoft.entityframeworkcore.abstractions.7.0.9.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.9\\microsoft.entityframeworkcore.analyzers.7.0.9.nupkg.sha512",
@@ -25,6 +26,9 @@
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.extensions.options\\7.0.1\\microsoft.extensions.options.7.0.1.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\welder\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.32.1\\microsoft.identitymodel.abstractions.6.32.1.nupkg.sha512",
+    "C:\\Users\\welder\\.nuget\\packages\\microsoft.identitymodel.logging\\6.32.1\\microsoft.identitymodel.logging.6.32.1.nupkg.sha512",
+    "C:\\Users\\welder\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.32.1\\microsoft.identitymodel.tokens.6.32.1.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
@@ -33,6 +37,7 @@
     "C:\\Users\\welder\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\welder\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\welder\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512"
   ],
   "logs": []

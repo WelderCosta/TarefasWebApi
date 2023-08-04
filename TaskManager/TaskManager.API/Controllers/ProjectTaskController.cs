@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using TaskManager.Core.Models;
 using TaskManager.Service.Interfaces;
 
@@ -23,6 +24,7 @@ namespace TaskManager.API.Controllers
             return Ok(tasks);
         }
 
+        [Authorize]
         [HttpGet("{id}")]
         public async Task<IActionResult> GetTask(int id)
         {
@@ -36,6 +38,7 @@ namespace TaskManager.API.Controllers
             return Ok(task);
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<IActionResult> CreateTask([FromBody] ProjectTask projectTask)
         {
@@ -48,6 +51,7 @@ namespace TaskManager.API.Controllers
             return CreatedAtAction(nameof(GetTask), new { id = projectTask.Id }, projectTask);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateTask(int id, [FromBody] ProjectTask projectTask)
         {
@@ -67,6 +71,7 @@ namespace TaskManager.API.Controllers
             return NoContent();
         }
 
+        [Authorize]
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteTask(int id)
         {

@@ -90,3 +90,4 @@ C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\Estudos\TarefasWebApi\TaskManager\TaskManager.API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
