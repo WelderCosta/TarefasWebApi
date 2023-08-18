@@ -34,7 +34,7 @@ namespace TaskManager.Data.Repositories
 
         public async Task<ProjectTask> AddTaskAsync(ProjectTask projectTask)
         {
-            using (SqlConnection connection = new("Data Source=DESKTOP-THJUGI2\\SQLEXPRESS;Initial Catalog=DB_AprendizadoTS;User ID=sa;Password=admin123;Encrypt=False"))
+            using (SqlConnection connection = new("Data Source=WMC-PC\\SQLEXPRESS;Initial Catalog=DB_AprendizadoTS;User ID=sa;Password=admin123;Encrypt=False"))
             {
                 await connection.OpenAsync();
 
@@ -61,7 +61,7 @@ namespace TaskManager.Data.Repositories
 
         public async Task<ProjectTask> UpdateTaskAsync(ProjectTask projectTask)
         {
-            using (SqlConnection connection = new("Data Source=DESKTOP-THJUGI2\\SQLEXPRESS;Initial Catalog=DB_AprendizadoTS;User ID=sa;Password=admin123;Encrypt=False")) 
+            using (SqlConnection connection = new("Data Source=WMC-PC\\SQLEXPRESS;Initial Catalog=DB_AprendizadoTS;User ID=sa;Password=admin123;Encrypt=False")) 
             {
                 await connection.OpenAsync();
 

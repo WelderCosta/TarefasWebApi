@@ -46,6 +46,14 @@ builder.Services.AddSingleton(resolver =>
     return config.GetSection("JwtSettings").Get<JwtSettings>();
 });
 
+//builder.Services.AddCors(options =>
+//{
+//    options.AddPolicy("AllowMyOrigin",
+//        builder => builder.WithOrigins("http://seu-dominio-aqui.com") // Altere para o domínio correto
+//                          .AllowAnyHeader()
+//                          .AllowAnyMethod());
+//});
+
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
@@ -61,6 +69,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+//app.UseCors("AllowMyOrigin");
+app.UseCors(option => option.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
 app.UseAuthentication();
 app.UseAuthorization();
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "F8uuFekAf3DvIL0PeybtQ+iGGAINfRA7MQF/qjhvdsujyUmoWBEr5l/yRZCyId5QM8YWmn95jMj+Dk6xnuYzCw==",
+  "dgSpecHash": "BAqNPqJYDCnP7VUoN6H8hihHlL4I+SS1Po6H/GziWz3kMYhyPcaSuh+bvDiuAB8hkCAEp+LEtXc/3kZISURcaw==",
   "success": true,
   "projectFilePath": "C:\\Estudos\\TarefasWebApi\\TaskManager\\TaskManager.Data\\TaskManager.Data.csproj",
   "expectedPackageFiles": [
